@@ -8,4 +8,8 @@ public class User {
     String phoneNum;
     UserType userType;
     MessageChannel messageChannel;
+
+    public void resetPassword() {
+
+    }
 }
