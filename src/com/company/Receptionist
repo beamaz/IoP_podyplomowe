@@ -1,13 +1,22 @@
 package com.company;
 
-public class Receptonist {
+public class Receptonist extends User{
 
-    Boolean isAdmin;
-
+    Boolean isAdmin = true;
+    
+    public void activateUser() {
+    }
+    public void editUser() {
+    }
+    public void activateUser() {
+    }
+     public void confirmUserDelete() {
+    }
     public void createSchedule() {
     }
     public void deleteSchedule() {
     }
     public void sendMessageToUsers() {
     }
+}
 }
