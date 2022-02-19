@@ -1,6 +1,6 @@
 package com.company;
 
-public class Receptonist extends User{
+public class Receptionist extends User{
 
     Boolean isAdmin = true;
     
@@ -8,9 +8,7 @@ public class Receptonist extends User{
     }
     public void editUser() {
     }
-    public void activateUser() {
-    }
-     public void confirmUserDelete() {
+    public void confirmUserDelete() {
     }
     public void createSchedule() {
     }
@@ -19,4 +17,4 @@ public class Receptonist extends User{
     public void sendMessageToUsers() {
     }
 }
-}
+
