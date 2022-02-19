@@ -1,19 +1,24 @@
 package com.company;
 
-public class Receptionist extends User{
+public class Receptionist extends User {
 
     Boolean isAdmin = true;
-    
-    public void activateUser() {
+
+    protected void activateUser() {
     }
-    public void editUser() {
+
+    protected void editUser() {
     }
-    public void confirmUserDelete() {
+
+    protected void confirmUserDelete() {
     }
+
     public void createSchedule() {
     }
+
     public void deleteSchedule() {
     }
+
     public void sendMessageToUsers() {
     }
 }
