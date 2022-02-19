@@ -4,11 +4,9 @@ import java.util.*;
 
 public class UserAccount {
     public int id = 0;
-    Date creationDate = new Date();
-    User currentUser = null;
+    public Date creationDate = new Date();
 
     public User createUser() {
-
         User user = new User();
         id += 1;
         Scanner in = new Scanner(System.in);
@@ -22,10 +20,19 @@ public class UserAccount {
         user.phoneNum = in.nextLine();
 
         this.creationDate = new Date();
-        this.currentUser = user;
 
         System.out.println(id + ". " + user.firstName + " " + user.lastName + " " + creationDate);
-        return this.currentUser;
+        return user;
     }
+
+    public User setUserType() {
+        return null;
+    }
+
+    public void setPassword() {
+
+    }
+
+    public User user;
 }
 

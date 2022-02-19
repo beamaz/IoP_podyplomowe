@@ -1,8 +1,10 @@
 package com.company;
 
+import java.util.List;
+
 public class Client extends User {
-    boolean isSuspended;
-    PaymentMethod paymentMethod;
+    private boolean isSuspended;
+    private PaymentMethod paymentMethod;
 
     public Reservation createReservation() {
         return null;
@@ -15,4 +17,8 @@ public class Client extends User {
     public Reservation deleteReservation() {
         return null;
     }
+
+    public Subscription subscription;
+
+    public List<Reservation> reservationList;
 }

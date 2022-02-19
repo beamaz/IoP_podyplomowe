@@ -12,4 +12,6 @@ public class User {
     public void resetPassword() {
 
     }
+
+    public UserAccount userAccount;
 }

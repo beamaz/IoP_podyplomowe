@@ -1,16 +1,18 @@
 package com.company;
 
+import java.util.List;
+
 public class Receptionist extends User {
 
-    Boolean isAdmin = true;
+    private Boolean isAdmin;
 
-    protected void activateUser() {
+    private void activateUser() {
     }
 
-    protected void editUser() {
+    private void editUser() {
     }
 
-    protected void confirmUserDelete() {
+    private void confirmUserDelete() {
     }
 
     public void createSchedule() {
@@ -21,5 +23,7 @@ public class Receptionist extends User {
 
     public void sendMessageToUsers() {
     }
+
+    public List<Schedule> scheduleList;
 }
 

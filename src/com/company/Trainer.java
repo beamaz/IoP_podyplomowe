@@ -1,7 +1,9 @@
 package com.company;
 
+import java.util.List;
+
 public class Trainer extends User {
-    boolean isTrainer;
+    private boolean isTrainer;
 
     public Training createTraining() {
         return null;
@@ -22,4 +24,6 @@ public class Trainer extends User {
     public Reservation sendMessageToParticipants() {
         return null;
     }
+
+    public List<Training> trainings;
 }
